@@ -1,0 +1,226 @@
+
+body{
+  font-family:"Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:"Montserrat", sans-serif;
+  font-weight:400;
+}
+
+
+/* Headings */
+.big-heading{
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color:#002159;
+    color: white;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+.light-section{
+  background-color: #34B3D4;
+  padding:0;
+  margin:0;
+
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding:0 3% 2rem;
+}
+
+.navbar-brand{
+  font-family:"Ubuntu", sans-serif;
+  font-size:2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat-Light",sans-serif;
+}
+
+.navbar-logo{
+  width: 400px;
+}
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color:inherit;
+  text-decoration:none;
+}
+
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title*/
+
+
+#title .title-padding{
+  padding:3% 0% 0%;
+  margin:0;
+  position:relative;
+}
+
+.title-image{
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title-text{
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.white-text{
+  color:white;
+}
+
+.covid-text{
+  padding:5px;
+  text-align: center;
+}
+
+/* Features */
+#features{
+  position:relative;
+}
+
+.featurebox{
+padding:5%;
+}
+
+.feature-img{
+  color: #34B3D4;
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+
+
+.feature-title{
+  font-size:1.5rem;
+}
+
+.feature-text{
+  font-size:1rem;
+}
+/* testimonials */
+#testimonials{
+}
+
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  padding: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-title{
+  font-size:1.5rem;
+}
+
+/* patients */
+
+.patient-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.patient-img{
+  border-radius: 5%
+}
+
+.patient-text{
+  font-size:1rem;
+}
+
+
+/* Call to Action */
+#cta{
+}
+
+/* Footer */
+#footer{
+
+}
+
+.footer-icon{
+  padding: 10px;
+  color: black;
+}
+
+/* Media - Phone Formatting */
+@media (max-width: 1028px){
+  #title{
+
+  }
+
+  .title-image{
+
+}
