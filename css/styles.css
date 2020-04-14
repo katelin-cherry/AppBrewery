@@ -100,8 +100,8 @@ a:hover{
 
 .title-text{
   position: absolute;
-  top: 20px;
-  right: 40px;
+  top: 20%;
+  right: 20%;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -136,11 +136,12 @@ padding:5%;
 
 
 .feature-title{
-  font-size:1.5rem;
+  font-size:1rem;
+  font-weight:400;
 }
 
 .feature-text{
-  font-size:1rem;
+  font-size:.75rem;
 }
 /* testimonials */
 #testimonials{
@@ -223,6 +224,12 @@ padding:5%;
 
   }
 
-  .title-image{
-
+  .title-text{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
