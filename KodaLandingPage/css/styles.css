@@ -148,8 +148,8 @@ padding:5%;
 
 
 .feature-title{
-  font-size:1.5rem;
-  font-weight:900;
+  font-size:1.25rem;
+  font-weight: 400;
 }
 
 .feature-text{
@@ -229,6 +229,16 @@ padding:5%;
   padding: 10px;
   color: black;
 }
+
+/* Modal */
+.modal-title{
+  color:black;
+}
+
+.modal-body{
+  color:black;
+}
+
 
 /* Media - Phone Formatting */
 @media (max-width: 1028px){
